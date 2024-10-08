@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Studying with Steph - Dedicated tutor for calculus and GED math preparation.">
+    <title>Studying with Steph | Math Tutoring Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #5A9BD5;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+            font-style: italic;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .services, .about, .contact {
+            margin-bottom: 40px;
+        }
+
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .services ul li {
+            background-color: #E1F0FF;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .about p {
+            line-height: 1.6;
+        }
+
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact form input[type="submit"] {
+            background-color: #5A9BD5;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact form input[type="submit"]:hover {
+            background-color: #4A7EBB;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1.1em;
+        }
+
+        footer a {
+            color: #A3D0F2;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Studying with Steph</h1>
+        <p>Your Dedicated Tutor for Calculus and GED Math Preparation</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Steph, a sophomore college student majoring in mathematics. I am passionate about teaching and helping students understand complex math concepts in a way that makes sense to them. I currently attend lectures for Calculus 2 and also teach an adult education math course designed for GED preparation.</p>
+        <p>My tutoring approach focuses on clear explanations, practical applications, and building a solid foundation for future success. Whether you're struggling with calculus or preparing for your GED, I'm here to support you every step of the way!</p>
+    </section>
+
+    <section class="services">
+        <h2>My Services</h2>
+        <p>I offer tutoring for students of all levels, whether you're in high school, college, or preparing for your GED. Here's what I can help you with:</p>
+        <ul>
+            <li><strong>Calculus 2 Tutoring:</strong> Comprehensive help with topics such as derivatives, integrals, limits, and applications.</li>
+            <li><strong>GED Math Preparation:</strong> Focused lessons on arithmetic, algebra, geometry, and data analysis to ensure you're fully prepared for the test.</li>
+            <li><strong>Study Support:</strong> Assistance with homework, test prep, and problem-solving strategies for math-related challenges.</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p>If you're interested in tutoring or have any questions, feel free to reach out! You can also use the form below to send me a message directly.</p>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>Thank you for visiting! You can also find me on <a href="https://twitter.com" target="_blank">Twitter</a> and <a href="https://linkedin.com" target="_blank">LinkedIn</a>.</p>
+    </footer>
+</body>
+</html>
