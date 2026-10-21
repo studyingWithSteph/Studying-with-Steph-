@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "extraKnownMarketplaces": {
+    "research-kit": {
+      "source": {
+        "source": "github",
+        "repo": "nik110403/research-kit"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "research-kit@research-kit": true
+  },
+  "permissions": {
+    "deny": [
+      "Read(//**/.env)",
+      "Read(//**/.env.*)",
+      "Read(~/.ssh/**)",
+      "Read(//**/*.pem)",
+      "Read(~/.claude.json)",
+      "Read(~/.claude/.credentials.json)",
+      "Read(~/.git-credentials)"
+    ],
+    "ask": [
+      "Bash(rm *)",
+      "Bash(git push *)"
+    ]
+  }
+}
