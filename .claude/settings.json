@@ -1,0 +1,41 @@
+{
+  "extraKnownMarketplaces": {
+    "research-kit": {
+      "source": {
+        "source": "github",
+        "repo": "nik110403/research-kit"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "research-kit@research-kit": true
+  },
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./**/*.key)",
+      "Read(./**/*.pem)",
+      "Read(./secrets/**)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git reset --hard:*)",
+      "mcp__Google_Drive__trash_file",
+      "mcp__Google_Drive__share_file",
+      "mcp__Notion__notion-delete-pages",
+      "mcp__Notion__notion-delete-databases"
+    ],
+    "ask": [
+      "Bash(rm:*)",
+      "Bash(git push:*)",
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(pip install:*)",
+      "mcp__Google_Drive__create_file",
+      "mcp__Google_Drive__update_file",
+      "mcp__Google_Drive__copy_file",
+      "mcp__Notion__notion-update-page",
+      "mcp__Notion__notion-move-pages"
+    ]
+  }
+}
